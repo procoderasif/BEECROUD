@@ -1,23 +1,37 @@
-#include<bits/stdc++.h>
+#include <iostream>
+
 using namespace std;
+
+int main()
 {
-    int a,b,c,d,e,even=0,odd=0;
-    cin>>a;
-    if(a%2==0)
+
+    double a,b,c,d,e,f,count=0;
+    cin>>a>>b>>c>>d>>e>>f;
+    if(a>0)
     {
-        even++;
-
+        count++;
     }
-    else
-        {
-            odd++;
-        }
+    if(b>0)
+    {
+        count++;
+    }
+    if(c>0)
+    {
+        count++;
+    }
+    if(d>0)
+    {
+        count++;
+    }
+    if(e>0)
+    {
+        count++;
+    }
 
+    if(f>0)
+    {
+        count++;
+    }
+    cout<<count<<" valores positivos"<<endl;
 
-
-
-
-
-
-    return 0;
 }
